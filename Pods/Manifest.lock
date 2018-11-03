@@ -1,0 +1,44 @@
+PODS:
+  - Crashlytics (3.11.0):
+    - Fabric (~> 1.8.0)
+  - Fabric (1.8.0)
+  - IndoorAtlas (2.9.0)
+  - PubNub (4.8.1):
+    - PubNub/Core (= 4.8.1)
+  - PubNub/Core (4.8.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - IndoorAtlas (= 2.9.0-beta)
+  - PubNub (~> 4)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - Fabric
+    - PubNub
+  https://github.com/IndoorAtlas/CocoaPods-Specs.git:
+    - IndoorAtlas
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: d860511141f71fa0fb40c3241a0701be06ad7838
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Crashlytics: 1448070c1d2731ab71ea7c3faf84ac0f69657287
+  Fabric: 4ac1cdfef3004ccd83ce0959b91eda8a6e37df72
+  IndoorAtlas: 3f9746746420a0a8db51f5843e494b6e27b54acb
+  PubNub: 4958d6f5e3e7592eb6bccf8537310dbc22effcc9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 653f76f30a38302e150cef8c9d6c3d086a78ddc4
+
+COCOAPODS: 1.5.3
