@@ -7,3 +7,10 @@ Then you can do the following to make sure everything works:
 2. `open inav-uw.xcworkspace`
 3. Run this in your device. Note: a simulator will not work since this require location data so you would have to run it on a physical device
 4. Move around and wait for the app to locate you. If you are not in the building, the app will not load the map.
+
+
+- Way Finding:
+![1.png](1.png)
+
+- New Map implemented 
+![](CAE-2.png)
